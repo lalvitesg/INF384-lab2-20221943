@@ -23,17 +23,22 @@ registraron en docs/linea-base.md. Sustenten con el número que midieron.
 
 **RPTA:** 
 
+- Es el defecto 4, la descarga e instalación doble de librerías. Según los datos, realizar este paso toma entre 9 y 10 segundos.
+
 1.3 El vínculo con su caso. Cuál de los cuatro defectos ataca la restricción del caso
 transversal de su grupo. Citen un dato del value stream map que levantaron en la Sesión 1.
 
 **RPTA:**
 
+- Afectaría a la duración del Process Time. En el caso de Financiera los Andes, afectaría al tiempo de la Integración continua, que en el caso dura 35 minutos, pero con más librerías y más paquetes de Python, podría durar mucho más.
+
 1.4 La métrica DORA. Qué métrica DORA esperan mover con la intervención y por qué.
 Solo dos son alcanzables sin despliegue: identifiquen cuáles y elijan una.
 
-**RPTA:** *Lead Time para cambios*: Esta métrica 
+**RPTA:** *Lead Time para cambios*: Esta métrica mide el tiempo desde el commit hasta producción. Se espera mejorar porque
+se reduciría el doble tiempo para obtener la "Validación" en el pipeline.
 
 1.5 El proxy. Qué número concreto van a medir para sustentar que la métrica se movió.
 Decláralo antes de intervenir.
 
-**RPTA:**
+**RPTA:** Se medirá el tiempo de duración del workflow, esperando pasar de ~55s a ~45s.
