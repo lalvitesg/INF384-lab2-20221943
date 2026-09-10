@@ -42,3 +42,23 @@ se reduciría el doble tiempo para obtener la "Validación" en el pipeline.
 Decláralo antes de intervenir.
 
 **RPTA:** Se medirá el tiempo de duración del workflow, esperando pasar de ~55s a ~45s.
+
+4.1 Medición posterior. El valor del proxy después de la intervención, junto al de la línea
+base. Qué cambió y en qué proporción.
+
+**RPTA:** Nuevo valor: 1m y 10s. Linea base: ~55 s. Lo principal fue que se agregaron steps y algunas validaciones adicionales, lo cual pudo aumentar el tiempo.
+
+4.2 Justificación de la versión. Qué versión declararon y qué commits del historial la
+sustentan.
+
+**RPTA:** Version 1.5.5. Se contaron los feat y los fix luego del ultimo feat (el pipeline). Se incluye el fix de los cambios de este laboratorio
+
+4.3 Lo que no se resolvió. El pipeline sigue teniendo limitaciones. Nombren una y
+expliquen qué haría falta para resolverla.
+
+Cálculo manual de las versiones. Se necesitaría un estándar de commits e implementar una herramienta (o pipeline) que actualice automáticamente la versión según la cantidad de
+fixes o features.
+
+4.4 Declaración de uso de IA generativa, conforme al sílabo
+
+Se uso Gemini 3.1 Pro para ayudar en la detección de los Defectos 3 y 4. También, se usó el LLM para la programación en el pipeline. Finalmente se uso el LLM para dar asistencia en una limitación final del pipeline (4.3).
