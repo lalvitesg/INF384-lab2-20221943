@@ -48,8 +48,7 @@ jobs:
 
   publicar:
     needs: validar
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || github.event_name == 'push')
     name: Publicar artefacto
     runs-on: ubuntu-latest
     steps:
