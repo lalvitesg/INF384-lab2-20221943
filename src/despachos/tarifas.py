@@ -82,7 +82,7 @@ def desglose(envio: Envio) -> dict[str, float]:
         "total": calcular(envio),
     }
 
-def rompe_pipelines(var_a: int, var_b: float, var_c: int, var_d: Envio) -> float
+def rompe_pipelines(var_a: int, var_b: float, var_c: int, var_d: Envio) -> float:
     base = TARIFA_BASE
     mod_1 = var_a * TARIFA_BASE * var_b
     if mod_1 > var_d:
