@@ -5,9 +5,9 @@ sin modificar ningun archivo del repositorio. Registrar aqui los resultados.
 
 | Ejecucion | Duracion | URL |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | 55 s | https://github.com/lalvitesg/INF384-lab2-20221943/actions/runs/34513948254 |
+| 2 | 51 s | https://github.com/lalvitesg/INF384-lab2-20221943/actions/runs/34514229368 |
+| 3 | 57 s | https://github.com/lalvitesg/INF384-lab2-20221943/actions/runs/34514344490 |
 
 ## Declaracion de uso de IA generativa
 
