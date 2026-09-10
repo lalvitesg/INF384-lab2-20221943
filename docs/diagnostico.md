@@ -56,9 +56,9 @@ sustentan.
 4.3 Lo que no se resolvió. El pipeline sigue teniendo limitaciones. Nombren una y
 expliquen qué haría falta para resolverla.
 
-Cálculo manual de las versiones. Se necesitaría un estándar de commits e implementar una herramienta (o pipeline) que actualice automáticamente la versión según la cantidad de
+**RPTA:** Cálculo manual de las versiones. Se necesitaría un estándar de commits e implementar una herramienta (o pipeline) que actualice automáticamente la versión según la cantidad de
 fixes o features.
 
 4.4 Declaración de uso de IA generativa, conforme al sílabo
 
-Se uso Gemini 3.1 Pro para ayudar en la detección de los Defectos 3 y 4. También, se usó el LLM para la programación en el pipeline. Finalmente se uso el LLM para dar asistencia en una limitación final del pipeline (4.3).
+**RPTA:** Se uso Gemini 3.1 Pro para ayudar en la detección de los Defectos 3 y 4. También, se usó el LLM para la programación en el pipeline. Finalmente se uso el LLM para dar asistencia en una limitación final del pipeline (4.3).
