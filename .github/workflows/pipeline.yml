@@ -55,6 +55,11 @@ jobs:
       - name: Descargar el codigo
         uses: actions/checkout@v4
 
+      - name: Leer version
+        run: |
+          VERSION=$(cat VERSION)
+          echo "APP_VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
@@ -72,6 +77,6 @@ jobs:
       - name: Publicar el paquete
         uses: actions/upload-artifact@v4
         with:
-          name: paquete
+          name: despachos-${{ env.APP_VERSION }}
           path: dist/
           overwrite: true
